@@ -18,9 +18,9 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 loop = asyncio.get_event_loop()
 
 TOKEN = '7393263164:AAEJDQLhCP1ozn1J5Qgobkpn2cwQ_PeEX4w'
-CHANNEL_ID = -1002241974001
-ADMIN_ID = 1506500386
-error_channel_id = -1002241974001
+CHANNEL_ID = -1002381090325
+ADMIN_ID = 907345225
+error_channel_id = -1002381090325
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
@@ -243,11 +243,11 @@ def handle_message(message):
         else:
             bot.send_message(message.chat.id, "*No account data found. Please contact the admin.*", parse_mode='Markdown')
     elif message.text == "Help❓":
-        bot.reply_to(message, "*How to DDos ==> https://t.me/Ddos_Res/3*", parse_mode='Markdown')
+        bot.reply_to(message, "*How to DDos ==> https://t.me/c/2211578775/15430*", parse_mode='Markdown')
     elif message.text == "Contact admin✔️":
-        bot.reply_to(message, "*@HEADSHOT_TITAN*", parse_mode='Markdown')
+        bot.reply_to(message, "*@RISHABGUPTA01*", parse_mode='Markdown')
     elif message.text == "Canary Download✔️":
-        bot.send_message(message.chat.id, "*Please use the following link for Canary Download: https://t.me/Ddos_Res/2*", parse_mode='Markdown')
+        bot.send_message(message.chat.id, "*Please use the following link for Canary Download: https://t.me/c/2249126063/11*", parse_mode='Markdown')
     else:
         bot.reply_to(message, "*Invalid option*", parse_mode='Markdown')
 
